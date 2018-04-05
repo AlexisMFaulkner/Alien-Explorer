@@ -1,0 +1,23 @@
+<!doctype html>
+<script src="code/game.js"></script>
+<script src="code/game_levels.js"></script>
+
+<link rel="stylesheet" href="css/game.css">
+<style>
+body {
+    color: blue;
+    font-size: 20px;
+}
+
+h1 {
+    color: red;
+}
+</style>
+<body>
+  <h1>Alien Explorer</h1>
+<p>You are an alien who was sent to explore a new planet.<br> Avoid the acid by jumping on the pillars, but some pillers may be fake.<br> Collect some juice to stay hydrated.<br> You need to find lost documents in order to complete your mission.</p>
+
+  <script>
+    runGame(GAME_LEVELS, DOMDisplay);
+  </script>
+</body>

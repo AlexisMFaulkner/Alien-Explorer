@@ -1,0 +1,37 @@
+.background    { background: url("https://c1.staticflickr.com/4/3608/3398192516_577fc4656e_b.jpg");
+                 background-size: auto;
+                 table-layout: fixed;
+                   border-spacing: 0;  }
+.background td { padding: 0;          }
+.lava          { background: url("http://cdn2.bigcommerce.com/n-d57o0b/xbfr3w1/products/889/images/1151/Alien_Goo__50670.1486319371.480.480.jpg?c=2");
+                 background-size: auto; }
+.wall          { background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9MczBVg7cic8FOV2lB7XYZBuTPTtJmiQswa2fmYd1KgGL3KiYJw");
+                background-size: auto;  }
+
+.actor  { position: absolute;  }
+.juice   {background-image: url(juice.png);
+          background-size: 30px, 30px;}
+.player { background-image: url(Alien.png);
+          background-size: 25px, 30px; }
+.acid   { background: url("http://cdn2.bigcommerce.com/n-d57o0b/xbfr3w1/products/889/images/1151/Alien_Goo__50670.1486319371.480.480.jpg?c=2");
+          background-size: auto;}
+.paper { background-image: url(paper.png);
+         background-size: 30px, 30px;}
+.floater {background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9MczBVg7cic8FOV2lB7XYZBuTPTtJmiQswa2fmYd1KgGL3KiYJw");
+                background-size: 100px, 300px; }
+.winner            { background: red;}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: url(green-fire.png);
+  background-size: 25px, 30px;
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
